@@ -1,0 +1,104 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 400;
+  line-height: 1.2rem;
+  font-size: 16px;
+  background-color: black;
+}
+
+.dovolena {
+  background-image: url(images/aloha.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 560px;
+  width: 1000px;
+  display: block;
+  margin: auto;
+  margin-top: 8vh;
+  position: relative;
+}
+
+.uvod {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Merienda", cursive;
+  font-size: 100px;
+  font-weight: 700;
+  margin-top: 10%;
+}
+
+h2,
+.akce {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+
+h2 {
+  margin-top: 8%;
+}
+
+.akce {
+  margin-top: 6%;
+}
+
+.tlacitko {
+  display: block;
+  margin: auto;
+  width: 250px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  background-color: #f15f42;
+  color: white;
+  padding: 15px 26px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.opice1 {
+  height: 60%;
+  position: absolute;
+  bottom: -12%;
+  left: -15%;
+}
+
+.opice2 {
+  height: 60%;
+  position: absolute;
+  bottom: -12%;
+  right: -15%;
+}
+
+.bublina1,
+.bublina3 {
+  height: 35%;
+  position: absolute;
+  bottom: -2%;
+  left: 27%;
+}
+
+.bublina2,
+.bublina4 {
+  height: 35%;
+  position: absolute;
+  bottom: 4%;
+  right: 24%;
+}
